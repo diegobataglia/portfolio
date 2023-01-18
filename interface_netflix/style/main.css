@@ -1,0 +1,124 @@
+:root{
+	--vermelho: #e50914;
+	--preto: #141414;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*Elementos base*/
+body {	
+	background: var(--preto);
+	font-family: 'Times New Roman', Times, serif;
+	color: #fff;
+	
+}
+
+header .container {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #000; 
+	justify-content: space-between;
+	font-family: Arial Black;
+	
+}
+
+header .logo {
+	color: var(--vermelho);
+	font-family: 'Arial Black', Times;
+	font-size: 40px;
+	margin-left: 5px;
+}
+
+header nav a{
+	text-decoration:none;
+	color: #aaa;
+	margin-right: 50px;
+	
+}
+
+header nav a:hover{
+	
+	color: #fff;
+	
+}
+
+/*Filme principal*/
+
+.filme_principal {
+	font-size: 16px;
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/the_big_bang_theory.jpg");
+	background-size: cover;
+	height: 400px;	
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	
+	margin-bottom: 10px;
+}
+
+.filme_principal .descricao{
+	margin-bottom: 30px;
+	font-family: arial;
+}
+
+.botao {
+	background-color: rgba(0,0,0,.90);
+	border: none;
+	color: #fff;
+	margin-right: 15px;
+	padding: 15px;
+	font-size:12px;
+	cursor: pointer;
+	transition: .3s ease all;
+	
+}
+
+.botao i{
+	margin-right: 10px;
+}
+
+.botao:hover{
+	background-color: white;
+	color: #000;
+}
+
+
+.container1{
+	margin-left:20px;
+}
+
+.descricao{
+	
+}
+
+.titulo {
+	
+	margin-top: 20%;
+	font-size: 60px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+
+.box_filme {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.carrosel-filmes {
+	margin-top: 50px;
+}
+
+.titulo_carrousel {
+	
+	font-family: Arial black;
+	
+	
+}
