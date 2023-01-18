@@ -59,13 +59,15 @@ header nav a:hover{
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	
+	padding-bottom: 30px;
 	margin-bottom: 10px;
 }
 
 .filme_principal .descricao{
 	margin-bottom: 30px;
 	font-family: arial;
+	max-width: 70%;
+	
 }
 
 .botao {

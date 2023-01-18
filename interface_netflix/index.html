@@ -1,74 +1,72 @@
 <!doctype html>
-<html lang="pt-br">
+
+<!--Site desenvolvido por Diego Bataglia, com intuito de demonstrar algumas habilidades
+em desenvolvido front-end - feito em janeiro de 2023 -->
+
+<html lang="pt-br"> <!--Linguagem do site em português Brasil-->
 	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale 1.0">
-	<title>Netflix - Clone</title>
-	<link rel="stylesheet" href="style/main.css">
-	<link rel="stylesheet" href="style/responsive.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale 1.0"> <!--Chamada das funções responsivas do site-->
+		<title>Netflix - Clone</title> <!--Título do site-->
+		<link rel="stylesheet" href="style/main.css"> <!-- Chamada de folha de estilo css-->
+		<link rel="stylesheet" href="style/responsive.css"> <!-- Chamada de folha de estilo css-->
 		
-	<!--OWL CSS-->
-	<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-	<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">	
+		<!--OWL CSS - Estilos para o carrousel padrão OWL--> 
+		<link rel="stylesheet" href="style/owl/owl.carousel.min.css"> <!-- Chamada de folha de estilo css-->
+		<link rel="stylesheet" href="style/owl/owl.theme.default.min.css"> <!-- Chamada de folha de estilo css-->
 	</head>
 	
-	<body>
+	<body> <!--Corpo da página-->
 		
-		<header>
-			<div class="container">
+		<header> <!--Definição do menu do site-->
+			<div class="container"> <!--Wrapper para organização de conteúdo-->
 				<a href="#">
-					<img src="img/logo.jpg" alt="Logotipo Netflix" height="70">
+					<img src="img/logo.jpg" alt="Logotipo Netflix" height="70"> <!--Chamada da imagem do logotipo-->
 				</a>	
-			<nav>
-				<a  href="#">Inicio</a>
-				<a href="#">Séries</a>
-				<a href="#">Filmes</a>
-				<a href="#">Documentários</a>
+			<nav> <!--Itens de navegação do site-->
+				<a href="index.html">Inicio</a> <!--Link para a página inicial-->
+				<a href="series.html">Séries</a> <!--Link para a página de séries-->
+				<a href="filmes.html">Filmes</a> <!--Link para a página de filmes-->
+				<a href="documentarios.html">Documentários</a> <!--Link para a página de documentários-->
 			</nav>
 			</div>	
-			
-			
 		</header>
-		<main>
-			<div class="filme_principal">
-				<div class="container1">
-					<h3 class="titulo">THE BIG BANG THEORY</h3>
-					<p class="descricao">Leonard e Sheldon são dois jovens cientistas 
-					que moram juntos, sabem tudo de física, mas não parecem saber<br> como se relacionar com mulheres. <br></p>
-					<a href="#"><button class="botao"><i class="fa-solid fa-play "></i> ASSISTA AGORA</button></a>
-					<a href="#"><button class="botao"><i class="fa-solid fa-circle-info "></i> MAIS INFORMAÇÕES</button></a>
-					
-			</div>
+		
+		<main> <!--Conteúdo principal da página-->
+			
+			<div class="filme_principal"> <!--Wrapper para organização de conteúdo-->
+				<div class="container1"> <!--Divisão para organização de conteúdo-->
+					<h3 class="titulo">THE BIG BANG THEORY</h3> <!--Título do Banner principal-->
+					<p class="descricao">Leonard e Sheldon são dois jovens cientistas <!--Título do Banner principal-->
+					que moram juntos, sabem tudo de física, mas não parecem saber como se relacionar com mulheres. <br></p>
+					<a href="the_big_bang_theory.html"><button class="botao"><i class="fa-solid fa-play "></i> ASSISTA AGORA</button></a> <!--Botão para o link assistir agora-->
+					<a href="#"><button class="botao"><i class="fa-solid fa-circle-info "></i> MAIS INFORMAÇÕES</button></a><!--Botão para o link Mais informações-->					
 				</div>
+			</div>
 			
 		</main>
 		
-		
-		
-		<div class="carrosel-filmes">
-		
-			<div class="owl-carousel owl-theme">
-				
-				<div class="item"><img class="box_filme" src="img/carrossel/Friends.jpg" alt="Banner da serie Friends" srcset=""></div>
-				<div class="item"><img class="box_filme" src="img/carrossel/how_i_meet_you_mother.jpg" alt="Banner da serie How i meet your mother" srcset=""></div>
-				<div class="item"><img class="box_filme" src="img/carrossel/lucifer.jpg" alt="Banner da serie Lucifer" srcset=""></div>
-				<div class="item"><img class="box_filme" src="img/carrossel/that_70s_show.jpg" alt="Banner da serie That sevent´s Show" srcset=""></div>
-				<div class="item"><img class="box_filme" src="img/carrossel/house.jpg" alt="Banner da serie House" srcset=""></div>
-				<div class="item"><img class="box_filme" src="img/carrossel/hawaii_five_zero.jpg" alt="Banner da serie Hawaii five zero" srcset=""></div>
-				<div class="item"><img class="box_filme" src="img/carrossel/Pokemon.jpg" alt="Banner da serie Pokemom" srcset=""></div>
-				<div class="item"><img class="box_filme" src="img/carrossel/dragon_ball_z.jpg" alt="Banner da serie Dragon Ball Z" srcset=""></div>
-				<div class="item"><img class="box_filme" src="img/carrossel/animaniacs.jpg" alt="Banner da serie Animaniacs" srcset=""></div>
-				<div class="item"><img class="box_filme" src="img/carrossel/Pink_e_o_cerebro.jpg" alt="Banner da serie Pink e o Cerébro" srcset=""></div>
-				
-				
+			<div class="carrosel-filmes">  <!--Wrapper para organização de conteúdo-->
+				<div class="owl-carousel owl-theme"> <!--Divisão para organização do carrousel principal-->
+					<div class="item"><a href="friends.html"><img class="box_filme" src="img/carrossel/Friends.jpg" alt="Banner da serie Friends" srcset=""></a></div> <!--Item do carrosel-->
+					<div class="item"><a href="how_i_meet_you_mother.html"><img class="box_filme" src="img/carrossel/how_i_meet_you_mother.jpg" alt="Banner da serie How i meet your mother" srcset=""></a></div><!--Item do carrosel-->
+					<div class="item"><a href="Lucifer.html"><img class="box_filme" src="img/carrossel/lucifer.jpg" alt="Banner da serie Lucifer" srcset=""></a></div><!--Item do carrosel-->
+					<div class="item"><a href="that_70s_show.html"> <img class="box_filme" src="img/carrossel/that_70s_show.jpg" alt="Banner da serie That sevent´s Show" srcset=""></a></div> <!--Item do carrosel-->
+					<div class="item"><a href="house.html"><img class="box_filme" src="img/carrossel/house.jpg" alt="Banner da serie House" srcset=""></a></div> <!--Item do carrosel-->
+					<div class="item"><a href="hawaii_five_zero.html"><img class="box_filme" src="img/carrossel/hawaii_five_zero.jpg" alt="Banner da serie Hawaii five zero" srcset=""></a></div> <!--Item do carrosel-->
+					<div class="item"><a href="pokemon.html"><img class="box_filme" src="img/carrossel/Pokemon.jpg" alt="Banner da serie Pokemom" srcset=""></a></div><!--Item do carrosel-->
+					<div class="item"><a href="dragon_ball_z.html"><img class="box_filme" src="img/carrossel/dragon_ball_z.jpg" alt="Banner da serie Dragon Ball Z" srcset=""></a></div> <!--Item do carrosel-->
+					<div class="item"><a href="animaniacs.html"><img class="box_filme" src="img/carrossel/animaniacs.jpg" alt="Banner da serie Animaniacs" srcset=""></a></div><!--Item do carrosel-->
+					<div class="item"><a href="pink_e_o_cerebro.html"><img class="box_filme" src="img/carrossel/Pink_e_o_cerebro.jpg" alt="Banner da serie Pink e o Cerébro" srcset=""></a></div><!--Item do carrosel-->
 			</div>
 		</div>
-		
+
+	<!--Chamada dos scripts javascript-->	
 	<script src="https://kit.fontawesome.com/4e77dc85af.js" crossorigin="anonymous"></script>
 	<script src="js/owl/jquery.min.js"></script>
 	<script src="js/owl/owl.carousel.min.js"></script>	
 	<script src="js/setup.js"></script>	
-	</body>
 
+</body>
 
 </html>
