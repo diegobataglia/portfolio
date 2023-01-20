@@ -1,15 +1,19 @@
-:root{
+/*Estilos CSS*/
+
+:root { /* Definição de variáveis para as cores */
 	--vermelho: #e50914;
 	--preto: #141414;
 }
 
-
-* {
+* { /* Definindo as margens da página */
+	
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
 /*Elementos base*/
+
 body {	
 	background: var(--preto);
 	font-family: 'Times New Roman', Times, serif;
@@ -53,7 +57,7 @@ header nav a:hover{
 	font-size: 16px;
 	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/the_big_bang_theory.jpg");
 	background-size: cover;
-	height: 400px;	
+	height: 390px;	
 	
 	display: flex;
 	flex-direction: column;
@@ -108,6 +112,7 @@ header nav a:hover{
 }
 
 
+/*Elementos do carrosel*/
 .box_filme {
 	height: 100%;
 	width: 100%;
@@ -119,8 +124,146 @@ header nav a:hover{
 }
 
 .titulo_carrousel {
-	
-	font-family: Arial black;
-	
-	
+	font-family: Arial black;	
 }
+
+/*Classes para banner das páginas dos filmes*/
+
+.pagina_filme{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/the_big_bang_theory.jpg");	
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-size: cover;
+}
+
+.that{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/carrossel/that_70s_show.jpg");	
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-size: cover;
+}
+
+.pokemon{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/carrossel/Pokemon.jpg");	
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-size: cover;
+}
+
+.pink{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/carrossel/Pink_e_o_cerebro.jpg");	
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-size: cover;
+}
+
+.lucifer{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/carrossel/lucifer.jpg");	
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-size: cover;
+}
+
+.how{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/carrossel/how_i_meet_you_mother.jpg");	
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-size: cover;
+}
+
+.house{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/carrossel/house.jpg");	
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-size: cover;
+}
+
+.hawaii{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/carrossel/hawaii_five_zero.jpg");	
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-size: cover;
+}
+
+.friends{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/carrossel/Friends.jpg");	
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-size: cover;
+}
+
+.dragon{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/carrossel/dragon_ball_z.jpg");	
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-size: cover;
+}
+
+.animaniacs{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/carrossel/animaniacs.jpg");	
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-size: cover;
+}
+
+.titulo_filme{
+	font-family: Arial black;
+	font-size:55px;
+	padding-left: 30px;
+	padding-top: 200px;
+	margin-bottom: 20px;
+	align-content: center;
+	align-items: center;
+
+}
+.video{
+	height: 280px;
+	display: flex;
+	flex-direction:column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding-left: 10px;
+	
+	}	
+
+
+
+figure { width: 90%; min-width: 320px; margin:0 auto;}
+figcaption { font: 120% sans-serif; text-align: center;}
+video {
+    width: 100%;
+	height: auto;}
+

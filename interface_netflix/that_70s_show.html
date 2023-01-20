@@ -1,32 +1,43 @@
 <!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale 1.0">
-	<title>That 70´s Show</title>
-	<link rel="stylesheet" href="style/main.css">
-	<link rel="stylesheet" href="style/responsive.css">
-		
-	<!--OWL CSS-->
-	<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-	<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">	
-	</head>
 
-<body>
+<!--Site desenvolvido por Diego Bataglia, com intuito de demonstrar algumas habilidades
+em desenvolvido front-end - feito em janeiro de 2023 -->
+
+<html lang="pt-br"> <!--Linguagem do site em português Brasil-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale 1.0"> <!--Chamada das funções responsivas do site-->
+		<title>That 70´s Show</title> <!--Título do site-->
+		<link rel="stylesheet" href="style/main.css"> <!-- Chamada de folha de estilo css-->
+		<link rel="stylesheet" href="style/responsive.css"> <!-- Chamada de folha de estilo css-->
+		
+		<!--OWL CSS - Estilos para o carrousel padrão OWL--> 
+		<link rel="stylesheet" href="style/owl/owl.carousel.min.css"> <!-- Chamada de folha de estilo css-->
+		<link rel="stylesheet" href="style/owl/owl.theme.default.min.css"> <!-- Chamada de folha de estilo css-->
+	</head>
 	
-	<header>
-			<div class="container">
-				<a href="#">
-					<img src="img/logo.jpg" alt="Logotipo Netflix" height="70">
+	<body> <!--Corpo da página-->
+		
+		<header> <!--Definição do menu do site-->
+			<div class="container"> <!--Wrapper para organização de conteúdo-->
+				<a href="index.html">
+					<img src="img/logo.jpg" alt="Logotipo Netflix" height="70"> <!--Chamada da imagem do logotipo-->
 				</a>	
-			<nav>
-				<a href="index.html">Inicio</a>
-				<a href="series.html">Séries</a>
-				<a href="filmes.html">Filmes</a>
-				<a href="documentarios.html">Documentários</a>
+			<nav> 
+				<a href="https://www.diegobataglia.com.br">Desenvolvido por Diego Bataglia </a> 
 			</nav>
 			</div>	
-			
-			
 		</header>
-</html>
+		
+		<div class="that"><!--Wrapper para organização de conteúdo-->
+			<div> <!--Divisão para organização de conteúdo-->
+			<h3 class="titulo_filme">That 70´S Show</h3> <!--Título para página-->
+			</div>
+			<div>	
+			<figure> <!--Divisão para organização do video--> 
+				<video poster="img/carrossel/that_70s_show.jpg" class="video" controls src="img/videos/that_70s_show.mp4"></video>
+			</figure>	
+			</div>
+		</div>	
+	</body>
+</html>	
